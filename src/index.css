@@ -120,7 +120,7 @@ body {
 @media (min-width: 680px) {
 	.perfume-card {
 		flex-direction: row;
-		max-width: 39rem;
+		max-width: 42rem;
 	}
 }
 
@@ -197,4 +197,9 @@ body {
 	font-weight: var(--fw-700);
 
 	cursor: pointer;
+}
+
+.item-info__btn:hover,
+.item-info__btn:focus {
+	background: var(--clr-dark-blue);
 }
